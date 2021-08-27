@@ -4,5 +4,6 @@ spring:
   cloud:
     config:
       uri: http://config-server-bank.azurewebsites.net
+      #http://localhost:8762-> dev
       #http://config-server:8762-> docker
       #http://config-server-bank.azurewebsites.net -> pdr
